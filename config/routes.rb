@@ -1,4 +1,16 @@
 MathNotes::Application.routes.draw do
+  get "theorems/index"
+  get "theorems/new"
+  get "theorems/create"
+  get "theorems/edit"
+  get "theorems/update"
+  get "theorems/destroy"
+  get "terms/index"
+  get "terms/new"
+  get "terms/create"
+  get "terms/edit"
+  get "terms/update"
+  get "terms/destroy"
   resources :terms
 
   # The priority is based upon order of creation: first created -> highest priority.

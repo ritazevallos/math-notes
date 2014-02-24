@@ -1,4 +1,4 @@
-class TermsController < ApplicationController
+class TheoremsController < ApplicationController
   def index
   end
 
